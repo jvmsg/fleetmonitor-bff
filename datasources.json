@@ -1,0 +1,47 @@
+{
+  "mongodb": [
+    {
+      "name": "principal",
+      "url": "192.168.100.170",
+      "port": 27017,
+      "banco": "monitor-bff"
+    },
+    {
+      "name": "nodecontroller",
+      "url": "192.168.100.170",
+      "port": 27017,
+      "banco": "nodecontroller"
+    },
+    {
+      "name": "cache",
+      "url": "192.168.100.170",
+      "port": 27017,
+      "banco": "monitor-bff_cache",
+      "use_default_rw_config": false
+    }
+  ],
+  "rabbitmq": [
+    {
+      "name": "principal",
+      "host": "192.168.100.170",
+      "port": 5672,
+      "user": "core",
+      "pass": "ddmxadm08"
+    }
+  ],
+  "memcached": [
+    {
+      "name": "principal",
+      "hosts": "192.168.100.150:11211",
+      "ttl_segundos": 180
+    }
+  ],
+  "elasticsearch": [
+    {
+      "name": "principal",
+      "url": "elastic-etl-9200.portalddmx.com.br",
+      "port": 80
+    }
+  ]
+}
+

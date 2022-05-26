@@ -1,0 +1,25 @@
+{
+  "http_port": 8080,
+  "http_contexto": "monitor-bff",
+  "http_origem": "MONITOR-BFF",
+  "http_request_time_log_sec": 1,
+  "automatic_close": "false",
+  "datasource_nodecontroller": "nodecontroller",
+  "datasource_memcachedb": "principal",
+  "datasource_mongocachedb": "cache",
+  "datasource_websocket": "principal",
+  "log_level": "INFO",
+  "http_access_control_allow_headers": ["sessao"],
+  "swagger": {
+    "title": "Monitor BFF",
+    "description": "Servidor do aplicativo do Monitor.",
+    "version": "1.0.0",
+    "contact": "João Víctor de Moraes Santos Gomes (joao.gomes@ddmx.com.br)",
+    "schemes": [
+      "http"
+    ]
+  },
+  "configuracoes":{
+    "url_old_monitor_bff": "http://192.168.100.170:8950/api"
+  }
+}

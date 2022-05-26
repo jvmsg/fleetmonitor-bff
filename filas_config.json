@@ -1,0 +1,24 @@
+[
+  {
+    "datasource_rabbit": "principal",
+    "datasource_mongo": "principal",
+    "nome": "timers",
+    "dispatchers": 1,
+    "dispatcher_qos": 1,
+    "consumers": 1,
+    "consumer_qos": 1,
+    "job": "JobExecutaTimer",
+    "autoack": true
+  },
+  {
+    "datasource_rabbit": "principal",
+    "datasource_mongo": "principal",
+    "nome": "async",
+    "dispatchers": 1,
+    "dispatcher_qos": 1,
+    "consumers": 1,
+    "consumer_qos": 1,
+    "job": "JobExecutaMetodosAsync",
+    "autoack": true
+  }
+]
